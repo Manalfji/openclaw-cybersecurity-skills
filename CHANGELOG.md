@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.5.0] - 2026-07-08
+
+### Added
+- Skill 26: Deception Technology & Honeypot Operations
+- `honeypot_log_analyzer.py` — Analyze honeypot logs for attacker behavior
+- `honeytoken_generator.py` — Generate fake credentials and tokens
+- `canary_deployer.py` — Deploy canary files and monitor access
+- Added examples for deception technology
+
 ## [1.4.0] - 2026-07-08
 
 ### Added

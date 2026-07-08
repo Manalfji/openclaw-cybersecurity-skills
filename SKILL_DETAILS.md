@@ -540,6 +540,30 @@ Complete breakdown of every skill, its purpose, when to use it, and what it prod
 
 ---
 
+## 26 — Deception Technology
+**Purpose:** Deploy honeypots, honeytokens, and canary files to detect unauthorized access.
+**When to use:**
+- Setting up honeypots to detect attackers
+- Creating fake credentials to detect credential theft
+- Deploying canary files to detect data exfiltration
+- Analyzing attacker behavior through deception
+
+**What it does:**
+- Analyzes honeypot logs for attacker behavior
+- Generates fake credentials (AWS, GitHub, database, API keys)
+- Deploys canary files in sensitive locations
+- Creates fake database entries
+- Generates deployment guides for security teams
+
+**Scripts:**
+- `honeypot_log_analyzer.py` — Analyze honeypot logs for attacker behavior
+- `honeytoken_generator.py` — Generate fake credentials and tokens
+- `canary_deployer.py` — Deploy canary files and monitor access
+
+**Output:** Honeypot reports, honeytoken lists, canary deployment guides.
+
+---
+
 ## Quick Reference
 
 | Skill | Use When You Need To... |
@@ -566,6 +590,7 @@ Complete breakdown of every skill, its purpose, when to use it, and what it prod
 | Cryptocurrency Security | Validate crypto addresses, check mnemonics, analyze transactions |
 | Digital Forensics | Analyze disk images, memory dumps, registry hives |
 | Supply Chain Security | Generate SBOMs, detect dependency confusion, verify provenance |
+| Deception Technology | Deploy honeypots, honeytokens, canary files for threat detection |
 | Phishing Analysis | Analyze suspicious emails, check SPF/DKIM/DMARC |
 | Container Security | Audit Kubernetes for security misconfigurations |
 | DevSecOps | Scan pipelines for secrets, CVEs, and SAST issues |

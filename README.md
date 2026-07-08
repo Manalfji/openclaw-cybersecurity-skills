@@ -59,8 +59,9 @@ Originally from [Masriyan/Claude-Code-CyberSecurity-Skill](https://github.com/Ma
 | 23 | [Cryptocurrency Security](skills/23-cryptocurrency-security/) | Crypto | Address validation, mnemonic checks, transaction analysis | 1 |
 | 24 | [Digital Forensics](skills/24-digital-forensics/) | Forensics | Disk forensics, memory analysis, registry parsing | 3 |
 | 25 | [Supply Chain Security](skills/25-supply-chain-security/) | Supply Chain | SBOM generation, dependency confusion, SLSA provenance | 3 |
+| 26 | [Deception Technology](skills/26-deception-technology/) | Deception | Honeypots, honeytokens, canary files | 3 |
 
-**Total: 25 skills, 43 standalone scripts**
+**Total: 26 skills, 46 standalone scripts**
 
 ## Quick Start
 
