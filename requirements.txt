@@ -41,3 +41,6 @@ kubernetes>=25.3.0
 # Cryptocurrency Security (23)
 # Uses standard library only (hashlib, base58-like decoding)
 # No external dependencies required
+
+# Digital Forensics (24) - Optional
+# python-registry>=1.3.1  # For advanced Windows registry parsing (optional)
