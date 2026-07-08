@@ -516,6 +516,30 @@ Complete breakdown of every skill, its purpose, when to use it, and what it prod
 
 ---
 
+## 25 — Supply Chain & Software Security
+**Purpose:** Secure software supply chains through SBOM generation, dependency confusion detection, and provenance verification.
+**When to use:**
+- Generating SBOMs for compliance requirements
+- Checking for dependency confusion vulnerabilities
+- Verifying build provenance and integrity
+- Auditing third-party dependencies
+
+**What it does:**
+- Generates SBOMs in SPDX and CycloneDX formats
+- Detects dependency confusion attack vectors
+- Assesses SLSA provenance levels
+- Identifies internal package naming risks
+- Generates compliance reports
+
+**Scripts:**
+- `sbom_generator.py` — Generate SBOMs from Python/Node.js projects
+- `dependency_confusion_detector.py` — Detect dependency confusion vulnerabilities
+- `slsa_assessor.py` — Verify SLSA provenance attestations
+
+**Output:** SPDX/CycloneDX SBOMs, vulnerability reports, SLSA assessments.
+
+---
+
 ## Quick Reference
 
 | Skill | Use When You Need To... |
@@ -541,6 +565,7 @@ Complete breakdown of every skill, its purpose, when to use it, and what it prod
 | GRC Compliance | Map controls, manage risk, prepare for audits |
 | Cryptocurrency Security | Validate crypto addresses, check mnemonics, analyze transactions |
 | Digital Forensics | Analyze disk images, memory dumps, registry hives |
+| Supply Chain Security | Generate SBOMs, detect dependency confusion, verify provenance |
 | Phishing Analysis | Analyze suspicious emails, check SPF/DKIM/DMARC |
 | Container Security | Audit Kubernetes for security misconfigurations |
 | DevSecOps | Scan pipelines for secrets, CVEs, and SAST issues |

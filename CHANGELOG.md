@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.4.0] - 2026-07-08
+
+### Added
+- Skill 25: Supply Chain & Software Security
+- `sbom_generator.py` — Generate SBOMs in SPDX and CycloneDX formats
+- `dependency_confusion_detector.py` — Detect dependency confusion vulnerabilities
+- `slsa_assessor.py` — Verify SLSA provenance levels
+- Supply chain attack detection and compliance reporting
+
 ## [1.3.0] - 2026-07-08
 
 ### Added
