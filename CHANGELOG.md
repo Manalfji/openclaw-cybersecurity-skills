@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.3.0] - 2026-07-08
+
+### Added
+- Skill 24: Digital Forensics & Evidence Preservation
+- `forensic_timeline.py` — Build forensic timelines with hash verification
+- `memory_hunter.py` — Analyze memory dumps for suspicious artifacts
+- `registry_parser.py` — Extract Windows registry forensic artifacts
+- Added examples for incident response and digital forensics
+
 ## [1.2.0] - 2026-07-08
 
 ### Added

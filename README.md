@@ -57,8 +57,9 @@ Originally from [Masriyan/Claude-Code-CyberSecurity-Skill](https://github.com/Ma
 | 21 | [Container Security](skills/21-container-security/) | Containers | K8s pod security, RBAC, secrets, network policies | 1 |
 | 22 | [DevSecOps](skills/22-devsecops/) | Pipeline | Secret detection, dependency CVE scanning, SAST | 1 |
 | 23 | [Cryptocurrency Security](skills/23-cryptocurrency-security/) | Crypto | Address validation, mnemonic checks, transaction analysis | 1 |
+| 24 | [Digital Forensics](skills/24-digital-forensics/) | Forensics | Disk forensics, memory analysis, registry parsing | 3 |
 
-**Total: 23 skills, 37 standalone scripts**
+**Total: 24 skills, 40 standalone scripts**
 
 ## Quick Start
 

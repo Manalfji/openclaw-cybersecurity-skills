@@ -492,6 +492,30 @@ Complete breakdown of every skill, its purpose, when to use it, and what it prod
 
 ---
 
+## 24 — Digital Forensics
+**Purpose:** Perform digital forensics analysis on disk images, memory dumps, and registry hives.
+**When to use:**
+- Investigating a security incident requiring legal admissibility
+- Analyzing disk images for evidence of compromise
+- Extracting forensic artifacts from memory dumps
+- Preserving evidence chain-of-custody
+
+**What it does:**
+- Builds forensic timelines from directory contents
+- Analyzes memory dumps for suspicious processes and network indicators
+- Extracts Windows registry artifacts (USB history, persistence mechanisms)
+- Generates MD5/SHA256 hashes for evidence integrity
+- Creates legally admissible reports with chain-of-custody
+
+**Scripts:**
+- `forensic_timeline.py` — Build forensic timelines with hash verification
+- `memory_hunter.py` — Analyze memory dumps for suspicious artifacts
+- `registry_parser.py` — Extract Windows registry forensic artifacts
+
+**Output:** JSON forensic reports, timeline CSVs, chain-of-custody documentation.
+
+---
+
 ## Quick Reference
 
 | Skill | Use When You Need To... |
@@ -516,6 +540,7 @@ Complete breakdown of every skill, its purpose, when to use it, and what it prod
 | OT / ICS Security | Secure industrial control systems |
 | GRC Compliance | Map controls, manage risk, prepare for audits |
 | Cryptocurrency Security | Validate crypto addresses, check mnemonics, analyze transactions |
+| Digital Forensics | Analyze disk images, memory dumps, registry hives |
 | Phishing Analysis | Analyze suspicious emails, check SPF/DKIM/DMARC |
 | Container Security | Audit Kubernetes for security misconfigurations |
 | DevSecOps | Scan pipelines for secrets, CVEs, and SAST issues |
