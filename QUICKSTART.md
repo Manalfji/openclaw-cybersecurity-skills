@@ -123,6 +123,8 @@ python3 anomaly_detector.py --file /var/log/auth.log --sensitivity high
 | "Analyze APK" | Mobile Security |
 | "Check ICS traffic" | OT / ICS Security |
 | "Map controls" | GRC Compliance |
+| "Validate crypto address" | Cryptocurrency Security |
+| "Check mnemonic phrase" | Cryptocurrency Security |
 
 ## Common Workflows
 
