@@ -140,6 +140,7 @@ Quick reference:
 | Mobile Security | Analyze mobile apps (Android/iOS) |
 | OT / ICS Security | Secure industrial control systems |
 | Cryptocurrency Security | Validate crypto addresses, check mnemonics, analyze transactions |
+| Digital Forensics | Analyze disk images, memory dumps, registry hives for evidence |
 
 ## Script Dependencies
 
