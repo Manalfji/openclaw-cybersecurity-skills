@@ -1,6 +1,6 @@
 # OpenClaw CyberSecurity Skills
 
-22 production-quality cybersecurity skills adapted for **OpenClaw** — covering offensive security, defensive operations, reverse engineering, threat hunting, CSOC automation, AI/LLM security, mobile, OT/ICS, GRC, phishing analysis, container security, and DevSecOps.
+23 production-quality cybersecurity skills adapted for **OpenClaw** — covering offensive security, defensive operations, reverse engineering, threat hunting, CSOC automation, AI/LLM security, mobile, OT/ICS, GRC, phishing analysis, container security, DevSecOps, and cryptocurrency security.
 
 Originally from [Masriyan/Claude-Code-CyberSecurity-Skill](https://github.com/Masriyan/Claude-Code-CyberSecurity-Skill) — adapted to OpenClaw's leaner skill format.
 
