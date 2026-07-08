@@ -187,6 +187,10 @@ See [SECURITY.md](SECURITY.md) for detailed security policy, safe usage guidelin
 | [QUICKSTART.md](QUICKSTART.md) | 5-minute getting started guide |
 | [SKILL_DETAILS.md](SKILL_DETAILS.md) | Complete breakdown of every skill |
 | [CONTRIBUTING.md](CONTRIBUTING.md) | How to add skills, report issues, submit PRs |
+| [SECURITY.md](SECURITY.md) | Security policy, safe usage guidelines |
+| [CHANGELOG.md](CHANGELOG.md) | Version history and changes |
+| [examples/](examples/) | Practical examples and tutorials |
+| [requirements.txt](requirements.txt) | Optional dependencies per skill |
 | [SECURITY.md](SECURITY.md) | Security policy, safe usage, vulnerability reporting |
 | [CHANGELOG.md](CHANGELOG.md) | Version history and changes |
 
