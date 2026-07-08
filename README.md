@@ -56,8 +56,9 @@ Originally from [Masriyan/Claude-Code-CyberSecurity-Skill](https://github.com/Ma
 | 20 | [Phishing Analysis](skills/20-phishing-analysis/) | Email Security | `.eml` parsing, SPF/DKIM/DMARC checks, URL enrichment | 1 |
 | 21 | [Container Security](skills/21-container-security/) | Containers | K8s pod security, RBAC, secrets, network policies | 1 |
 | 22 | [DevSecOps](skills/22-devsecops/) | Pipeline | Secret detection, dependency CVE scanning, SAST | 1 |
+| 23 | [Cryptocurrency Security](skills/23-cryptocurrency-security/) | Crypto | Address validation, mnemonic checks, transaction analysis | 1 |
 
-**Total: 22 skills, 36 standalone scripts**
+**Total: 23 skills, 37 standalone scripts**
 
 ## Quick Start
 
@@ -137,7 +138,7 @@ Quick reference:
 | AI & LLM Security | Secure LLM apps, test for prompt injection |
 | Mobile Security | Analyze mobile apps (Android/iOS) |
 | OT / ICS Security | Secure industrial control systems |
-| GRC Compliance | Map controls, manage risk, prepare for audits |
+| Cryptocurrency Security | Validate crypto addresses, check mnemonics, analyze transactions |
 
 ## Script Dependencies
 

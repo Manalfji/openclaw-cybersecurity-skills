@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.2.0] - 2026-07-08
+
+### Added
+- Skill 23: Cryptocurrency Security
+- Standalone script for multi-cryptocurrency address validation
+- Bitcoin, Ethereum, Litecoin address validation with checksum verification
+- BIP-39 mnemonic phrase validation
+- Entropy and suspicious pattern detection
+- JSON report generation
+
 ## [1.1.0] - 2026-07-08
 
 ### Added

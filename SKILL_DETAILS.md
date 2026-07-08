@@ -469,6 +469,29 @@ Complete breakdown of every skill, its purpose, when to use it, and what it prod
 
 ---
 
+## 23 — Cryptocurrency Security
+**Purpose:** Validate cryptocurrency addresses, mnemonics, and check for common security issues.
+**When to use:**
+- Verifying a cryptocurrency address before sending funds
+- Checking if a mnemonic phrase is valid
+- Analyzing transactions for suspicious patterns
+- Checking wallet security (entropy, weak keys)
+
+**What it does:**
+- Validates Bitcoin, Ethereum, Litecoin addresses
+- Checks Base58 checksums for Bitcoin-family coins
+- Validates Ethereum EIP-55 checksums
+- Validates BIP-39 mnemonic phrases (word count, patterns)
+- Checks for weak entropy and suspicious patterns
+- Generates JSON security reports
+
+**Scripts:**
+- `crypto_validator.py` — Multi-cryptocurrency validator and security checker
+
+**Output:** JSON report with validation results and security findings.
+
+---
+
 ## Quick Reference
 
 | Skill | Use When You Need To... |
@@ -492,6 +515,7 @@ Complete breakdown of every skill, its purpose, when to use it, and what it prod
 | Mobile Security | Analyze mobile apps (Android/iOS) |
 | OT / ICS Security | Secure industrial control systems |
 | GRC Compliance | Map controls, manage risk, prepare for audits |
+| Cryptocurrency Security | Validate crypto addresses, check mnemonics, analyze transactions |
 | Phishing Analysis | Analyze suspicious emails, check SPF/DKIM/DMARC |
 | Container Security | Audit Kubernetes for security misconfigurations |
 | DevSecOps | Scan pipelines for secrets, CVEs, and SAST issues |
