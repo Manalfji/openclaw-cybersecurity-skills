@@ -1,6 +1,6 @@
 # OpenClaw CyberSecurity Skills
 
-19 production-quality cybersecurity skills adapted for **OpenClaw** — covering offensive security, defensive operations, reverse engineering, threat hunting, CSOC automation, AI/LLM security, mobile, OT/ICS, GRC, and more.
+22 production-quality cybersecurity skills adapted for **OpenClaw** — covering offensive security, defensive operations, reverse engineering, threat hunting, CSOC automation, AI/LLM security, mobile, OT/ICS, GRC, phishing analysis, container security, and DevSecOps.
 
 Originally from [Masriyan/Claude-Code-CyberSecurity-Skill](https://github.com/Masriyan/Claude-Code-CyberSecurity-Skill) — adapted to OpenClaw's leaner skill format.
 
@@ -53,8 +53,11 @@ Originally from [Masriyan/Claude-Code-CyberSecurity-Skill](https://github.com/Ma
 | 17 | [Mobile Security](skills/17-mobile-security/) | Mobile | Android/iOS testing, APK/IPA analysis | 1 |
 | 18 | [OT / ICS / SCADA Security](skills/18-ot-ics-security/) | Industrial | Purdue model, Modbus/DNP3/S7 analysis | 1 |
 | 19 | [GRC Compliance](skills/19-grc-compliance/) | Compliance | Control mapping, risk register, audit prep | 2 |
+| 20 | [Phishing Analysis](skills/20-phishing-analysis/) | Email Security | `.eml` parsing, SPF/DKIM/DMARC checks, URL enrichment | 1 |
+| 21 | [Container Security](skills/21-container-security/) | Containers | K8s pod security, RBAC, secrets, network policies | 1 |
+| 22 | [DevSecOps](skills/22-devsecops/) | Pipeline | Secret detection, dependency CVE scanning, SAST | 1 |
 
-**Total: 19 skills, 33 standalone scripts**
+**Total: 22 skills, 36 standalone scripts**
 
 ## Quick Start
 

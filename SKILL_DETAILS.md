@@ -401,6 +401,74 @@ Complete breakdown of every skill, its purpose, when to use it, and what it prod
 
 ---
 
+## 20 — Phishing Analysis
+**Purpose:** Analyze suspicious emails for phishing indicators.
+**When to use:**
+- Investigating a suspicious email received by a user
+- SOC analyst needs to determine if an email is malicious
+- Building a phishing triage workflow
+
+**What it does:**
+- Parses `.eml` files for headers, body, and attachments
+- Checks SPF/DKIM/DMARC authentication results
+- Extracts URLs and checks them for malicious indicators
+- Enriches URLs via VirusTotal and IPs via AbuseIPDB (optional API keys)
+- Calculates risk score (LOW → CRITICAL)
+- Generates terminal report and optional HTML report
+
+**Scripts:**
+- `phishing_analyzer.py` — Parse and analyze phishing emails
+
+**Output:** Terminal report + HTML report with risk scores and indicators.
+
+---
+
+## 21 — Container Security
+**Purpose:** Audit Kubernetes clusters for security misconfigurations.
+**When to use:**
+- Auditing a Kubernetes deployment before production
+- Checking container security posture
+- Compliance validation for containerized workloads
+
+**What it does:**
+- 20 security checks across 6 categories:
+  - Pod Security: root, privileged, privilege escalation, read-only FS, capabilities
+  - Resource Management: CPU/memory limits, resource quotas
+  - RBAC: overprivileged service accounts, default service accounts
+  - Secrets: hardcoded secrets in env vars, secrets mounted as volumes
+  - Network: network policies, exposed services, ingress security
+  - General: container registry security, image pull policies
+- Compliance mappings: CIS, PCI-DSS, NIST, GDPR, SOC2
+- Generates JSON audit report
+
+**Scripts:**
+- `k8s_security_scanner.py` — Kubernetes security configuration scanner
+
+**Output:** JSON audit report with pass/fail status per check.
+
+---
+
+## 22 — DevSecOps
+**Purpose:** Scan CI/CD pipelines and repositories for security issues.
+**When to use:**
+- Pre-commit security checks
+- CI/CD pipeline integration
+- Auditing repositories for secrets and vulnerabilities
+
+**What it does:**
+- Secret detection: API keys, passwords, database URLs, JWTs, bearer tokens via regex
+- Dependency scanning: Parses requirements.txt, package.json, go.mod and queries OSV API for known CVEs
+- SAST basics: 9 rules covering eval/exec, SQL injection, insecure deserialization, SSRF, weak crypto (MD5/SHA1), insecure randomness, debug mode, dangerous subprocess calls
+- Per-category reporting with severity breakdown
+- JSON export + CI/CD exit codes (`--fail-on-critical`)
+
+**Scripts:**
+- `devsecops_scanner.py` — Pipeline security scanner
+
+**Output:** JSON report with findings categorized by severity and type.
+
+---
+
 ## Quick Reference
 
 | Skill | Use When You Need To... |
@@ -424,3 +492,6 @@ Complete breakdown of every skill, its purpose, when to use it, and what it prod
 | Mobile Security | Analyze mobile apps (Android/iOS) |
 | OT / ICS Security | Secure industrial control systems |
 | GRC Compliance | Map controls, manage risk, prepare for audits |
+| Phishing Analysis | Analyze suspicious emails, check SPF/DKIM/DMARC |
+| Container Security | Audit Kubernetes for security misconfigurations |
+| DevSecOps | Scan pipelines for secrets, CVEs, and SAST issues |

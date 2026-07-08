@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.0] - 2026-07-08
+
+### Added
+- 3 new cybersecurity skills (20-22) filling gaps in email security, containers, and DevSecOps
+- Phishing Analysis skill: `.eml` parsing, SPF/DKIM/DMARC checks, URL enrichment
+- Container Security skill: 20 K8s checks across pod security, RBAC, secrets, network
+- DevSecOps skill: Secret detection, dependency CVE scanning, SAST basics
+- All new scripts security audited — zero threats found
+- Updated README and SKILL_DETAILS.md with new skills
+
+### New Skills
+| # | Skill | Scripts |
+|---|-------|---------|
+| 20 | Phishing Analysis | 1 |
+| 21 | Container Security | 1 |
+| 22 | DevSecOps | 1 |
+
 ## [1.0.0] - 2026-07-08
 
 ### Added
